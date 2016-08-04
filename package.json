@@ -1,0 +1,30 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "App using MySQL, Node, Express allowing users to add and eat burgers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcarroll42/burger.git"
+  },
+  "author": "Josh Carroll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcarroll42/burger/issues"
+  },
+  "homepage": "https://github.com/jcarroll42/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.11.1"
+  },
+  "engines": {
+    "node": "5.11.0"
+  }
+}
