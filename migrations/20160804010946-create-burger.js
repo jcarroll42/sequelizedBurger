@@ -11,6 +11,10 @@ module.exports = {
       burger_name: {
         type: Sequelize.STRING
       },
+      devoured: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
